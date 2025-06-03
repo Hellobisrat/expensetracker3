@@ -6,7 +6,7 @@ import dotenv from "dotenv";
 import expenseRouter from './router/expenseRoute.js';
 dotenv.config();
 
-const PORT = process.env.PORT 
+const PORT = process.env.PORT || 3000;
 
 console.log('process.env.PORT:',PORT)
 
